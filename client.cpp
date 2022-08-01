@@ -67,8 +67,8 @@ int main(int argc, char *argv[])
     if (ftp.m_file_nslt.size())
     {
         std::cout << "HELLLLLLLLLLLO" << std::endl;
-        std::cout << ftp.m_file_nslt.at(2).c_str() << std::endl;
-        ftp.get_file(ftp.m_file_nslt.at(2).c_str());
+        // std::cout << ftp.m_file_nslt.at(2).c_str() << std::endl;
+        ftp.send_file("client_file.txt");
     }
 
     ftp.logout();
