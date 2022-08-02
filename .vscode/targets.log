@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun Jul 31 15:59:04 2022
+# Make data base, printed on Tue Aug  2 10:45:09 2022
 
 # Variables
 
@@ -19,7 +19,7 @@ GNOME_SHELL_SESSION_MODE = pop
 # environment
 SSH_AGENT_LAUNCHER = gnome-keyring
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-9598efcf-1b48-458a-a1ae-afbe749189cc.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-c986c8ee-1e73-426a-b0b7-1ec192c83c6e.sock
 # environment
 VSCODE_CWD = /home/magy/Desktop/luxoft
 # environment
@@ -61,7 +61,7 @@ XAUTHORITY = /run/user/1000/gdm/Xauthority
 # default
 .INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
 # environment
-GNOME_TERMINAL_SERVICE = :1.4672
+GNOME_TERMINAL_SERVICE = :1.9022
 # makefile
 MAKEFLAGS = pqrR
 # makefile
@@ -69,7 +69,7 @@ CURDIR := /home/magy/Desktop/luxoft
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
@@ -93,7 +93,7 @@ ZSH = /home/magy/.oh-my-zsh
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 287905
+VSCODE_PID = 462554
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
@@ -125,7 +125,7 @@ XMODIFIERS = @im=ibus
 # environment
 SHLVL = 1
 # environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/d55e6c97_45a5_4c39_ba3b_78342c3ddd01
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/3b33eb35_a009_4ed5_8a7e_986b8eed03e4
 # environment
 MAKELEVEL := 0
 # default
@@ -163,11 +163,11 @@ GNUMAKEFLAGS :=
 # environment
 LOGNAME = magy
 # environment
-PLATFORMIO_PATH = /home/magy/.platformio/penv/bin:/home/magy/.platformio/penv:/home/magy/.platformio/python3/bin:/home/magy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/magy/.pub-cache/bin
+PLATFORMIO_PATH = /home/magy/.platformio/python3/bin:/home/magy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/magy/.pub-cache/bin
 # makefile
 .DEFAULT_GOAL := all
 # environment
-SYSTEMD_EXEC_PID = 287262
+SYSTEMD_EXEC_PID = 462395
 # environment
 DISPLAY = :0
 # environment
@@ -191,7 +191,7 @@ XDG_SESSION_CLASS = user
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
-PLATFORMIO_IDE = 2.5.0
+PLATFORMIO_IDE = 2.5.1
 # environment
 HOME = /home/magy
 # environment
@@ -229,9 +229,9 @@ GDMSESSION = pop
 
 # Directories
 
-# . (device 66307, inode 20060610): 9 files, no impossibilities.
+# . (device 66307, inode 20060610): 12 files, no impossibilities.
 
-# 9 files, no impossibilities in 1 directories.
+# 12 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -279,6 +279,7 @@ build: client.cpp
 # % := 
 # automatic
 # ^ := client.cpp
+ 
 # automatic
 # ? := client.cpp
 # automatic
@@ -288,11 +289,10 @@ build: client.cpp
 #  recipe to execute (from 'Makefile', line 4):
 	g++ lib_netsockets/src/socket.cc lib_netsockets/src/ftp.cc client.cpp -o client
 
- 
 # Not a target:
 client.cpp:
 #  Implicit rule search has been done.
-#  Last modified 2022-07-13 13:31:37.637130809
+#  Last modified 2022-08-01 10:50:45.144010827
 #  File has been updated.
 #  Successfully updated.
 
@@ -310,12 +310,12 @@ client.cpp:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 15 / storage = 147 B / avg = 9 B
-# current buf: size = 8162 B / used = 147 B / count = 15 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 18 / storage = 172 B / avg = 9 B
+# current buf: size = 8162 B / used = 172 B / count = 18 / avg = 9 B
 
-# strcache performance: lookups = 25 / hit rate = 40%
+# strcache performance: lookups = 28 / hit rate = 35%
 # hash-table stats:
-# Load=15/8192=0%, Rehash=0, Collisions=0/25=0%
-# Finished Make data base on Sun Jul 31 15:59:04 2022
+# Load=18/8192=0%, Rehash=0, Collisions=0/28=0%
+# Finished Make data base on Tue Aug  2 10:45:09 2022
 
  
