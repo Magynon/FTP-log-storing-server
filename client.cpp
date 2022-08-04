@@ -61,16 +61,21 @@ int main(int argc, char *argv[])
         }
     }
 
+    // client LOGIN
     ftp_t ftp(host_name, 2121);
     ftp.login(user_name, pass);
-    ftp.get_file_list();
-    if (ftp.m_file_nslt.size())
-    {
-        std::cout << "HELLLLLLLLLLLO" << std::endl;
-        // std::cout << ftp.m_file_nslt.at(2).c_str() << std::endl;
-        ftp.send_file("client_file.txt");
-    }
 
+    // file sending
+    ftp.send_file("prefs.txt");
     ftp.logout();
+
+    sleep(2);
+
+    // client LOGIN
+    ftp.login(user_name, pass);
+
+    ftp.send_file("log.txt");
+    ftp.logout();
+
     return 0;
 }

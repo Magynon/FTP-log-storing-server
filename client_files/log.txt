@@ -1,0 +1,2 @@
+HIGH,MEDIUM,4-aug-22_10-19,
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean faucibus convallis tellus. Nulla efficitur, nunc eget tempus hendrerit, nibh felis semper dolor, ut dignissim enim magna sit amet ex.

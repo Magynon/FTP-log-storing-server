@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Aug  2 10:45:09 2022
+# Make data base, printed on Wed Aug  3 19:19:15 2022
 
 # Variables
 
@@ -19,7 +19,7 @@ GNOME_SHELL_SESSION_MODE = pop
 # environment
 SSH_AGENT_LAUNCHER = gnome-keyring
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-c986c8ee-1e73-426a-b0b7-1ec192c83c6e.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-dc0ba78c-a7d8-4a13-99c3-bdc5f3298f25.sock
 # environment
 VSCODE_CWD = /home/magy/Desktop/luxoft
 # environment
@@ -61,7 +61,7 @@ XAUTHORITY = /run/user/1000/gdm/Xauthority
 # default
 .INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
 # environment
-GNOME_TERMINAL_SERVICE = :1.9022
+GNOME_TERMINAL_SERVICE = :1.2230
 # makefile
 MAKEFLAGS = pqrR
 # makefile
@@ -93,13 +93,13 @@ ZSH = /home/magy/.oh-my-zsh
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 462554
+VSCODE_PID = 126185
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-SESSION_MANAGER = local/pop-os:@/tmp/.ICE-unix/1960,unix/pop-os:/tmp/.ICE-unix/1960
+SESSION_MANAGER = local/pop-os:@/tmp/.ICE-unix/1917,unix/pop-os:/tmp/.ICE-unix/1917
 # automatic
 *F = $(notdir $*)
 # environment
@@ -125,7 +125,7 @@ XMODIFIERS = @im=ibus
 # environment
 SHLVL = 1
 # environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/3b33eb35_a009_4ed5_8a7e_986b8eed03e4
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/45dd0e90_eeac_44e3_9583_bc0cf6ded2c9
 # environment
 MAKELEVEL := 0
 # default
@@ -167,7 +167,7 @@ PLATFORMIO_PATH = /home/magy/.platformio/python3/bin:/home/magy/.local/bin:/usr/
 # makefile
 .DEFAULT_GOAL := all
 # environment
-SYSTEMD_EXEC_PID = 462395
+SYSTEMD_EXEC_PID = 126057
 # environment
 DISPLAY = :0
 # environment
@@ -229,9 +229,9 @@ GDMSESSION = pop
 
 # Directories
 
-# . (device 66307, inode 20060610): 12 files, no impossibilities.
+# . (device 66307, inode 20060610): 13 files, no impossibilities.
 
-# 12 files, no impossibilities in 1 directories.
+# 13 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -278,8 +278,8 @@ build: client.cpp
 # automatic
 # % := 
 # automatic
-# ^ := client.cpp
  
+# ^ := client.cpp
 # automatic
 # ? := client.cpp
 # automatic
@@ -310,12 +310,12 @@ client.cpp:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 18 / storage = 172 B / avg = 9 B
-# current buf: size = 8162 B / used = 172 B / count = 18 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 19 / storage = 178 B / avg = 9 B
+# current buf: size = 8162 B / used = 178 B / count = 19 / avg = 9 B
 
-# strcache performance: lookups = 28 / hit rate = 35%
+# strcache performance: lookups = 29 / hit rate = 34%
 # hash-table stats:
-# Load=18/8192=0%, Rehash=0, Collisions=0/28=0%
-# Finished Make data base on Tue Aug  2 10:45:09 2022
+# Load=19/8192=0%, Rehash=0, Collisions=0/29=0%
+# Finished Make data base on Wed Aug  3 19:19:15 2022
 
  
